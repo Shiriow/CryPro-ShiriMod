@@ -1,0 +1,5711 @@
+[
+  {
+    "ID": 0,
+    "Name": "Warrior",
+    "Comments": null,
+    "Flavor": null,
+    "Description": "An attacker and tank hybrid that can use many types of weapons. Wears heavy armor.",
+    "SortOrder": 0,
+    "LocationBiomeID": null,
+    "TexturePath": "Icon/Command",
+    "TextureIndex": 7,
+    "AbilitiesName": "Battle Skill",
+    "Color": {
+      "R": 0.8039216,
+      "G": 0.521568656,
+      "B": 0.247058824
+    },
+    "CrystalName": "Rust",
+    "WeaponHoldTypeM": 1,
+    "WeaponHoldTypeF": 1,
+    "PreferredHandAType": 0,
+    "PreferredHeadType": 12,
+    "PreferredBodyType": 15,
+    "HPRating": 80,
+    "MPRating": 20,
+    "StrRating": 80,
+    "VitRating": 80,
+    "DexRating": 30,
+    "AgiRating": 50,
+    "MndRating": 10,
+    "SpiRating": 30,
+    "SpdRating": 50,
+    "LckRating": 50,
+    "EquipmentTypes": [
+      0,
+      1,
+      2,
+      5,
+      11,
+      12,
+      15,
+      18
+    ],
+    "AbilityIDs": [
+      28,
+      17,
+      537,
+      536,
+      538,
+      543,
+      2,
+      27,
+      18,
+      19
+    ],
+    "PassiveIDs": [
+      72,
+      4,
+      69,
+      6,
+      7
+    ],
+    "LearnTree": [
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 18,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 2,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 17,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 28,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 536,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 6,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 69,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 537,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 19,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 27,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 543,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 7,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 4,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 538,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 1,
+    "Name": "Rune Fencer",
+    "Comments": null,
+    "Flavor": null,
+    "Description": "An attacker that requires no support to perform at maximum efficiency.",
+    "SortOrder": 6,
+    "LocationBiomeID": 4,
+    "TexturePath": "Icon/Command",
+    "TextureIndex": 8,
+    "AbilitiesName": "Runic Gleam",
+    "Color": {
+      "R": 0.6901961,
+      "G": 0.768627465,
+      "B": 0.870588243
+    },
+    "CrystalName": "Slate",
+    "WeaponHoldTypeM": 0,
+    "WeaponHoldTypeF": 0,
+    "PreferredHandAType": 3,
+    "PreferredHeadType": 13,
+    "PreferredBodyType": 16,
+    "HPRating": 50,
+    "MPRating": 20,
+    "StrRating": 40,
+    "VitRating": 30,
+    "DexRating": 80,
+    "AgiRating": 50,
+    "MndRating": 70,
+    "SpiRating": 30,
+    "SpdRating": 60,
+    "LckRating": 50,
+    "EquipmentTypes": [
+      3,
+      13,
+      16,
+      18
+    ],
+    "AbilityIDs": [
+      76,
+      75,
+      77,
+      514,
+      540,
+      516,
+      512,
+      513,
+      524,
+      80
+    ],
+    "PassiveIDs": [
+      20,
+      49,
+      22,
+      99
+    ],
+    "LearnTree": [
+      [
+        {
+          "NodeType": 3,
+          "DataID": 22,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 512,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 75,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 80,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 99,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 49,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 513,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 524,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 76,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 514,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 516,
+          "PrereqLeft": true,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 77,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 540,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 2,
+    "Name": "Rogue",
+    "Comments": null,
+    "Flavor": null,
+    "Description": "A pure attacker. Deals very high damage when circumstances are ideal. Wears medium armor.",
+    "SortOrder": 2,
+    "LocationBiomeID": null,
+    "TexturePath": "Icon/Command",
+    "TextureIndex": 9,
+    "AbilitiesName": "Trickery",
+    "Color": {
+      "R": 0.196078435,
+      "G": 0.8039216,
+      "B": 0.196078435
+    },
+    "CrystalName": "Lime",
+    "WeaponHoldTypeM": 0,
+    "WeaponHoldTypeF": 0,
+    "PreferredHandAType": 2,
+    "PreferredHeadType": 13,
+    "PreferredBodyType": 16,
+    "HPRating": 40,
+    "MPRating": 30,
+    "StrRating": 20,
+    "VitRating": 30,
+    "DexRating": 90,
+    "AgiRating": 60,
+    "MndRating": 50,
+    "SpiRating": 20,
+    "SpdRating": 90,
+    "LckRating": 50,
+    "EquipmentTypes": [
+      2,
+      13,
+      16,
+      18
+    ],
+    "AbilityIDs": [
+      37,
+      40,
+      9,
+      38,
+      41,
+      39,
+      43,
+      44,
+      45,
+      112
+    ],
+    "PassiveIDs": [
+      17,
+      9,
+      54,
+      11
+    ],
+    "LearnTree": [
+      [
+        {
+          "NodeType": 2,
+          "DataID": 37,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 38,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 11,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 40,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 9,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 9,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 43,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 44,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 54,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 39,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 41,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 45,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 112,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 3,
+    "Name": "Wizard",
+    "Comments": "Does not have the highest MND, but almost does.\r\nNote: One of the most JP-heavy classes to master. Their strongest abilities are kinda busted early game, so it should take a lot of work to unlock them.",
+    "Flavor": null,
+    "Description": "A fragile mage that casts powerful spells to deal lots of damage. Wears light armor.",
+    "SortOrder": 4,
+    "LocationBiomeID": null,
+    "TexturePath": "Icon/Command",
+    "TextureIndex": 10,
+    "AbilitiesName": "Black Magic",
+    "Color": {
+      "R": 0.5019608,
+      "G": 0.5019608,
+      "B": 0.5019608
+    },
+    "CrystalName": "Ash",
+    "WeaponHoldTypeM": 0,
+    "WeaponHoldTypeF": 0,
+    "PreferredHandAType": 9,
+    "PreferredHeadType": 14,
+    "PreferredBodyType": 17,
+    "HPRating": 30,
+    "MPRating": 80,
+    "StrRating": 30,
+    "VitRating": 20,
+    "DexRating": 60,
+    "AgiRating": 40,
+    "MndRating": 90,
+    "SpiRating": 50,
+    "SpdRating": 30,
+    "LckRating": 50,
+    "EquipmentTypes": [
+      2,
+      6,
+      9,
+      10,
+      14,
+      17,
+      18
+    ],
+    "AbilityIDs": [
+      5,
+      46,
+      47,
+      6,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      531,
+      530,
+      532,
+      542
+    ],
+    "PassiveIDs": [
+      12,
+      71,
+      13
+    ],
+    "LearnTree": [
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 13,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 2,
+          "DataID": 52,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 5,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 530,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 46,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 531,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 2,
+          "DataID": 47,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 2,
+          "DataID": 50,
+          "PrereqLeft": true,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 6,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 532,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 48,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 542,
+          "PrereqLeft": true,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 49,
+          "PrereqLeft": true,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 51,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": true
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 71,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 53,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 4,
+    "Name": "Cleric",
+    "Comments": "",
+    "Flavor": null,
+    "Description": "A healer that has limited offensive options. Wears light armor.",
+    "SortOrder": 3,
+    "LocationBiomeID": null,
+    "TexturePath": "Icon/Command",
+    "TextureIndex": 11,
+    "AbilitiesName": "White Magic",
+    "Color": {
+      "R": 0.0,
+      "G": 1.0,
+      "B": 1.0
+    },
+    "CrystalName": "Teal",
+    "WeaponHoldTypeM": 0,
+    "WeaponHoldTypeF": 0,
+    "PreferredHandAType": 8,
+    "PreferredHeadType": 14,
+    "PreferredBodyType": 17,
+    "HPRating": 60,
+    "MPRating": 60,
+    "StrRating": 40,
+    "VitRating": 40,
+    "DexRating": 20,
+    "AgiRating": 30,
+    "MndRating": 40,
+    "SpiRating": 100,
+    "SpdRating": 40,
+    "LckRating": 60,
+    "EquipmentTypes": [
+      8,
+      10,
+      14,
+      17,
+      18
+    ],
+    "AbilityIDs": [
+      7,
+      56,
+      61,
+      57,
+      522,
+      520,
+      521,
+      539,
+      59,
+      60
+    ],
+    "PassiveIDs": [
+      76,
+      77,
+      16
+    ],
+    "LearnTree": [
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 61,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 57,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 539,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 7,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 522,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 56,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 59,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 520,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 60,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 16,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 77,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 521,
+          "PrereqLeft": true,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 5,
+    "Name": "Monk",
+    "Comments": "Similar to Final Fantasy \"Monk\"\r\nNote: Monk should have pretty low-ish Strength. Attacking should be powerful enough, but this opens up opportunity for higher strengthed classes to subjob it for good results.",
+    "Flavor": null,
+    "Description": "An attacker and tank hybrid specializing in unarmed combat. Wears medium armor.",
+    "SortOrder": 1,
+    "LocationBiomeID": null,
+    "TexturePath": "Icon/Command",
+    "TextureIndex": 12,
+    "AbilitiesName": "Martial Arts",
+    "Color": {
+      "R": 1.0,
+      "G": 1.0,
+      "B": 0.0
+    },
+    "CrystalName": "Sun",
+    "WeaponHoldTypeM": 2,
+    "WeaponHoldTypeF": 2,
+    "PreferredHandAType": 0,
+    "PreferredHeadType": 13,
+    "PreferredBodyType": 16,
+    "HPRating": 100,
+    "MPRating": 10,
+    "StrRating": 70,
+    "VitRating": 50,
+    "DexRating": 40,
+    "AgiRating": 50,
+    "MndRating": 30,
+    "SpiRating": 80,
+    "SpdRating": 30,
+    "LckRating": 30,
+    "EquipmentTypes": [
+      13,
+      16,
+      18
+    ],
+    "AbilityIDs": [
+      8,
+      525,
+      30,
+      31,
+      32,
+      4,
+      523,
+      34,
+      35,
+      36
+    ],
+    "PassiveIDs": [
+      87,
+      2,
+      8,
+      0,
+      89
+    ],
+    "LearnTree": [
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 2,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 8,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 35,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 4,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 34,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 36,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 523,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 8,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 525,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 30,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 31,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": true,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 32,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 0,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 6,
+    "Name": "Reaper",
+    "Comments": "Note: Has very low Vit/Spi since they can wear heavy armor. Otherwise they would be OP. Tanking should depend on stealing Max HP, not mitigation.\r\nNote: Has high MP and Mnd as \"dump stats\" to go along with extremely high Str. This makes pumping Str be a generally bad trade-off when trying to min/max.",
+    "Flavor": null,
+    "Description": "An attacker that is also capable of tanking when circumstances are ideal.",
+    "SortOrder": 12,
+    "LocationBiomeID": 17,
+    "TexturePath": "Icon/Command",
+    "TextureIndex": 13,
+    "AbilitiesName": "Reaping",
+    "Color": {
+      "R": 0.647058845,
+      "G": 0.164705887,
+      "B": 0.164705887
+    },
+    "CrystalName": "Crimson",
+    "WeaponHoldTypeM": 0,
+    "WeaponHoldTypeF": 0,
+    "PreferredHandAType": 6,
+    "PreferredHeadType": 12,
+    "PreferredBodyType": 15,
+    "HPRating": 20,
+    "MPRating": 70,
+    "StrRating": 100,
+    "VitRating": 10,
+    "DexRating": 60,
+    "AgiRating": 40,
+    "MndRating": 80,
+    "SpiRating": 20,
+    "SpdRating": 50,
+    "LckRating": 30,
+    "EquipmentTypes": [
+      0,
+      1,
+      6,
+      12,
+      15,
+      18
+    ],
+    "AbilityIDs": [
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      303,
+      477,
+      478
+    ],
+    "PassiveIDs": [
+      30,
+      31,
+      56,
+      1
+    ],
+    "LearnTree": [
+      [
+        {
+          "NodeType": 2,
+          "DataID": 102,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 103,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 478,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 56,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 104,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 106,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 107,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 477,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 108,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": true,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 105,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 31,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 1,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 303,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 7,
+    "Name": "Hunter",
+    "Comments": null,
+    "Flavor": null,
+    "Description": "An attacker that does not need to worry about AP.",
+    "SortOrder": 10,
+    "LocationBiomeID": 18,
+    "TexturePath": "Icon/Command",
+    "TextureIndex": 14,
+    "AbilitiesName": "Hunt",
+    "Color": {
+      "R": 0.5019608,
+      "G": 0.5019608,
+      "B": 0.0
+    },
+    "CrystalName": "Olive",
+    "WeaponHoldTypeM": 0,
+    "WeaponHoldTypeF": 0,
+    "PreferredHandAType": 7,
+    "PreferredHeadType": 13,
+    "PreferredBodyType": 16,
+    "HPRating": 30,
+    "MPRating": 20,
+    "StrRating": 80,
+    "VitRating": 30,
+    "DexRating": 50,
+    "AgiRating": 100,
+    "MndRating": 20,
+    "SpiRating": 30,
+    "SpdRating": 60,
+    "LckRating": 50,
+    "EquipmentTypes": [
+      2,
+      7,
+      13,
+      16,
+      18
+    ],
+    "AbilityIDs": [
+      143,
+      142,
+      144,
+      145,
+      336,
+      147,
+      148,
+      149,
+      150,
+      151
+    ],
+    "PassiveIDs": [
+      42,
+      82,
+      44,
+      45
+    ],
+    "LearnTree": [
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 145,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 144,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 3,
+          "DataID": 44,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 336,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 142,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 3,
+          "DataID": 45,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 82,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 143,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 148,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 149,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 150,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 151,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 147,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 8,
+    "Name": "Shaman",
+    "Comments": "Note: Purple crystal color matches the environment well.\r\nBeing able to equip axes kinda synergizes with having high luck growth.\r\nHaving high luck synergizes with the Scholar's variance-based wind magic.\r\n\r\nNote: Default skill is an anti-magic debuff. This is supposed to be used against the Yamagawa thunder-using boss.",
+    "Flavor": null,
+    "Description": "A mage that is proficient in casting both damage and support magic.",
+    "SortOrder": 7,
+    "LocationBiomeID": 6,
+    "TexturePath": "Icon/Command",
+    "TextureIndex": 15,
+    "AbilitiesName": "Hex Magic",
+    "Color": {
+      "R": 0.5411765,
+      "G": 0.168627456,
+      "B": 0.8862745
+    },
+    "CrystalName": "Violet",
+    "WeaponHoldTypeM": 0,
+    "WeaponHoldTypeF": 0,
+    "PreferredHandAType": 9,
+    "PreferredHeadType": 14,
+    "PreferredBodyType": 17,
+    "HPRating": 40,
+    "MPRating": 70,
+    "StrRating": 30,
+    "VitRating": 30,
+    "DexRating": 10,
+    "AgiRating": 50,
+    "MndRating": 100,
+    "SpiRating": 40,
+    "SpdRating": 30,
+    "LckRating": 80,
+    "EquipmentTypes": [
+      1,
+      9,
+      14,
+      17,
+      18
+    ],
+    "AbilityIDs": [
+      119,
+      120,
+      321,
+      320,
+      121,
+      122,
+      111,
+      123,
+      129,
+      130
+    ],
+    "PassiveIDs": [
+      41,
+      35
+    ],
+    "LearnTree": [
+      [
+        {
+          "NodeType": 2,
+          "DataID": 119,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 2,
+          "DataID": 321,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 120,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": true,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 320,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": true,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 121,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 122,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 35,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": true,
+          "PrereqMiddle": true,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 129,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 111,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 123,
+          "PrereqLeft": true,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 130,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 9,
+    "Name": "Beatsmith",
+    "Comments": "",
+    "Flavor": null,
+    "Description": "An attacker that specializes in supporting the whole party.",
+    "SortOrder": 16,
+    "LocationBiomeID": 14,
+    "TexturePath": "Icon/Command",
+    "TextureIndex": 16,
+    "AbilitiesName": "Beatmaker",
+    "Color": {
+      "R": 0.0,
+      "G": 1.0,
+      "B": 0.498039216
+    },
+    "CrystalName": "Chartreuse",
+    "WeaponHoldTypeM": 0,
+    "WeaponHoldTypeF": 0,
+    "PreferredHandAType": 8,
+    "PreferredHeadType": 13,
+    "PreferredBodyType": 16,
+    "HPRating": 70,
+    "MPRating": 30,
+    "StrRating": 70,
+    "VitRating": 30,
+    "DexRating": 60,
+    "AgiRating": 40,
+    "MndRating": 30,
+    "SpiRating": 30,
+    "SpdRating": 100,
+    "LckRating": 20,
+    "EquipmentTypes": [
+      8,
+      13,
+      16,
+      18
+    ],
+    "AbilityIDs": [
+      340,
+      341,
+      339,
+      344,
+      337,
+      347,
+      346,
+      388,
+      382,
+      381
+    ],
+    "PassiveIDs": [
+      53,
+      52,
+      81
+    ],
+    "LearnTree": [
+      [
+        {
+          "NodeType": 2,
+          "DataID": 340,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 382,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 81,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 346,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 341,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 52,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 339,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 381,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 344,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 337,
+          "PrereqLeft": true,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 388,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 347,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 10,
+    "Name": "Aegis",
+    "Comments": "Note: Has decent Spi for good MDef and also for subbing white magic.\r\nNote: Has low MP to limit usage of really strong defensive magic. (Try clever sub-classing to make up for it!)\r\nNote: Since Aegis tank spells are balanced by cooldown, they should mitigate 90% instead of 100% so that using Fairy's \"No Cooldowns\" with them is not OP.",
+    "Flavor": null,
+    "Description": "A pure tank that can take damage for party members without managing Threat.",
+    "SortOrder": 9,
+    "LocationBiomeID": 11,
+    "TexturePath": "Icon/Command",
+    "TextureIndex": 17,
+    "AbilitiesName": "Chivalry",
+    "Color": {
+      "R": 1.0,
+      "G": 1.0,
+      "B": 0.0
+    },
+    "CrystalName": "Yellow",
+    "WeaponHoldTypeM": 0,
+    "WeaponHoldTypeF": 0,
+    "PreferredHandAType": 0,
+    "PreferredHeadType": 12,
+    "PreferredBodyType": 15,
+    "HPRating": 70,
+    "MPRating": 30,
+    "StrRating": 40,
+    "VitRating": 100,
+    "DexRating": 40,
+    "AgiRating": 40,
+    "MndRating": 20,
+    "SpiRating": 80,
+    "SpdRating": 10,
+    "LckRating": 40,
+    "EquipmentTypes": [
+      0,
+      5,
+      11,
+      12,
+      15,
+      18
+    ],
+    "AbilityIDs": [
+      93,
+      100,
+      99,
+      517,
+      541,
+      95,
+      96,
+      298,
+      299,
+      94
+    ],
+    "PassiveIDs": [
+      26,
+      78,
+      5,
+      36,
+      29,
+      80
+    ],
+    "LearnTree": [
+      [
+        {
+          "NodeType": 2,
+          "DataID": 93,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 517,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 99,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 78,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 36,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 95,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 94,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 29,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 3,
+          "DataID": 5,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 96,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 2,
+          "DataID": 298,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 299,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 541,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 100,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 11,
+    "Name": "Dervish",
+    "Comments": "A magic caster that can use scythes and wear medium armor.\r\nNote: Spells are all AoE (even the weak ones). *Addendum* I changed my mind, the weak ones are single-target now.\r\nNote: Spells have long CT. Combos with Focus Shield passive (defense up while charging magic).\r\nNote: Spells have high MP costs, but Aura Shield (recover MP when taking damage) can keep their MP up so it shouldn't matter.\r\nNote: Spells have higher base damage and lower scaling damage when compared to spells of other classes.\r\n\r\nTODO: AP Battery seems SUPER WEAK compared to their innate Aura Shield (recover MP when taking damage). This is a problem.",
+    "Flavor": null,
+    "Description": "A self-sustaining mage with powerful spells that deal lots of damage.",
+    "SortOrder": 15,
+    "LocationBiomeID": 30,
+    "TexturePath": "Icon/Command",
+    "TextureIndex": 18,
+    "AbilitiesName": "Geo Magic",
+    "Color": {
+      "R": 1.0,
+      "G": 0.7137255,
+      "B": 0.75686276
+    },
+    "CrystalName": "Pale Rose",
+    "WeaponHoldTypeM": 0,
+    "WeaponHoldTypeF": 0,
+    "PreferredHandAType": 6,
+    "PreferredHeadType": 13,
+    "PreferredBodyType": 16,
+    "HPRating": 40,
+    "MPRating": 60,
+    "StrRating": 60,
+    "VitRating": 60,
+    "DexRating": 30,
+    "AgiRating": 20,
+    "MndRating": 70,
+    "SpiRating": 30,
+    "SpdRating": 50,
+    "LckRating": 70,
+    "EquipmentTypes": [
+      6,
+      10,
+      13,
+      14,
+      16,
+      17,
+      18
+    ],
+    "AbilityIDs": [
+      518,
+      519,
+      134,
+      137,
+      508,
+      509,
+      510,
+      511,
+      140,
+      139
+    ],
+    "PassiveIDs": [
+      90,
+      33,
+      70
+    ],
+    "LearnTree": [
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 510,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 508,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 519,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 139,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 134,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 518,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 33,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": true,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 70,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 511,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 140,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 509,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 137,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 12,
+    "Name": "Nomad",
+    "Comments": "Note: Has no AoE magic spells.\r\nNote: Only has two \"levels\" of spell for each element (instead of three).",
+    "Flavor": null,
+    "Description": "A versatile mage that can deal either physical or magical damage.",
+    "SortOrder": 14,
+    "LocationBiomeID": 78,
+    "TexturePath": "Icon/Command",
+    "TextureIndex": 19,
+    "AbilitiesName": "Waterbend",
+    "Color": {
+      "R": 0.721568644,
+      "G": 0.5254902,
+      "B": 0.0431372561
+    },
+    "CrystalName": "Goldenrod",
+    "WeaponHoldTypeM": 0,
+    "WeaponHoldTypeF": 0,
+    "PreferredHandAType": 0,
+    "PreferredHeadType": 13,
+    "PreferredBodyType": 16,
+    "HPRating": 30,
+    "MPRating": 20,
+    "StrRating": 70,
+    "VitRating": 70,
+    "DexRating": 40,
+    "AgiRating": 40,
+    "MndRating": 70,
+    "SpiRating": 60,
+    "SpdRating": 40,
+    "LckRating": 50,
+    "EquipmentTypes": [
+      0,
+      1,
+      2,
+      11,
+      13,
+      14,
+      16,
+      17,
+      18
+    ],
+    "AbilityIDs": [
+      86,
+      451,
+      84,
+      82,
+      81,
+      83,
+      241,
+      88,
+      87,
+      90,
+      91
+    ],
+    "PassiveIDs": [
+      23,
+      27,
+      83
+    ],
+    "LearnTree": [
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 81,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 87,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 83,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 86,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 241,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 83,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 91,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 451,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 84,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 88,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 82,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 27,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 90,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 13,
+    "Name": "Scholar",
+    "Comments": "All spells use more MP than they are worth to offsets the job's versatility. But unlike Warlock, he can use books to help out.\r\nNote: Needs good AGI to combo with Fencer.",
+    "Flavor": null,
+    "Description": "A versatile mage with a spell for almost any situation. Learns its abilities from enemies.",
+    "SortOrder": 8,
+    "LocationBiomeID": 5,
+    "TexturePath": "Icon/Command",
+    "TextureIndex": 20,
+    "AbilitiesName": "Monster Magic",
+    "Color": {
+      "R": 0.498039216,
+      "G": 1.0,
+      "B": 0.831372559
+    },
+    "CrystalName": "Aquamarine",
+    "WeaponHoldTypeM": 0,
+    "WeaponHoldTypeF": 0,
+    "PreferredHandAType": 10,
+    "PreferredHeadType": 14,
+    "PreferredBodyType": 17,
+    "HPRating": 50,
+    "MPRating": 60,
+    "StrRating": 50,
+    "VitRating": 40,
+    "DexRating": 30,
+    "AgiRating": 60,
+    "MndRating": 60,
+    "SpiRating": 70,
+    "SpdRating": 30,
+    "LckRating": 50,
+    "EquipmentTypes": [
+      3,
+      8,
+      10,
+      11,
+      14,
+      17,
+      18
+    ],
+    "AbilityIDs": [
+      364,
+      197,
+      101,
+      25,
+      245,
+      376,
+      198,
+      199,
+      366,
+      202,
+      264,
+      207,
+      205,
+      70,
+      206,
+      200,
+      213,
+      186,
+      365,
+      363
+    ],
+    "PassiveIDs": [
+      79,
+      58,
+      39
+    ],
+    "LearnTree": [
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 364,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 245,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 366,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 205,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 213,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 3,
+          "DataID": 58,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 197,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 376,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 202,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 70,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 186,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 3,
+          "DataID": 39,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 101,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 198,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 264,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 206,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 365,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 25,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 199,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 207,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 200,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 363,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 14,
+    "Name": "Warlock",
+    "Comments": "Note: Should have good AGI so that it combos well with Fencer.\r\nNote: Cannot equip books. This would offset their weakness of having low MP.\r\nNote: Spells have no CT.\r\nNote: Spells have slightly less MP costs but are slightly weaker than their equivalents from other jobs.\r\n\r\nDon't forget to change Description of Doublecast if I change the abilities name!!!",
+    "Flavor": null,
+    "Description": "A healer and mage hybrid. Has a small MP pool. Wears heavy or light armor.",
+    "SortOrder": 5,
+    "LocationBiomeID": null,
+    "TexturePath": "Icon/Command",
+    "TextureIndex": 21,
+    "AbilitiesName": "Mixed Magic",
+    "Color": {
+      "R": 1.0,
+      "G": 0.0,
+      "B": 0.0
+    },
+    "CrystalName": "Ruby",
+    "WeaponHoldTypeM": 0,
+    "WeaponHoldTypeF": 0,
+    "PreferredHandAType": 3,
+    "PreferredHeadType": 12,
+    "PreferredBodyType": 15,
+    "HPRating": 40,
+    "MPRating": 40,
+    "StrRating": 50,
+    "VitRating": 50,
+    "DexRating": 40,
+    "AgiRating": 60,
+    "MndRating": 60,
+    "SpiRating": 60,
+    "SpdRating": 50,
+    "LckRating": 50,
+    "EquipmentTypes": [
+      2,
+      3,
+      8,
+      9,
+      11,
+      12,
+      14,
+      15,
+      17,
+      18
+    ],
+    "AbilityIDs": [
+      315,
+      316,
+      317,
+      126,
+      127,
+      124,
+      125,
+      128,
+      257,
+      322,
+      319,
+      276,
+      233
+    ],
+    "PassiveIDs": [
+      74,
+      32,
+      37
+    ],
+    "LearnTree": [
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 315,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 316,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 317,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 32,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 276,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 124,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 125,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 37,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 126,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 127,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 128,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 233,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": true
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 257,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 322,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 319,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 15,
+    "Name": "Valkyrie",
+    "Comments": "",
+    "Flavor": null,
+    "Description": "A tank that specializes in supporting the whole party.",
+    "SortOrder": 19,
+    "LocationBiomeID": 44,
+    "TexturePath": "Icon/Command",
+    "TextureIndex": 22,
+    "AbilitiesName": "Valhalla",
+    "Color": {
+      "R": 0.0,
+      "G": 0.7490196,
+      "B": 1.0
+    },
+    "CrystalName": "Deep Sky",
+    "WeaponHoldTypeM": 1,
+    "WeaponHoldTypeF": 0,
+    "PreferredHandAType": 5,
+    "PreferredHeadType": 12,
+    "PreferredBodyType": 15,
+    "HPRating": 60,
+    "MPRating": 40,
+    "StrRating": 90,
+    "VitRating": 90,
+    "DexRating": 40,
+    "AgiRating": 40,
+    "MndRating": 30,
+    "SpiRating": 30,
+    "SpdRating": 20,
+    "LckRating": 50,
+    "EquipmentTypes": [
+      0,
+      5,
+      12,
+      15,
+      18
+    ],
+    "AbilityIDs": [
+      285,
+      114,
+      115,
+      109,
+      110,
+      113,
+      116,
+      118,
+      117,
+      334
+    ],
+    "PassiveIDs": [
+      25,
+      15,
+      28,
+      34
+    ],
+    "LearnTree": [
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 114,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 2,
+          "DataID": 115,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 34,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 28,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 285,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 117,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 334,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 113,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 118,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": true
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 109,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 15,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 110,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 116,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 16,
+    "Name": "Weaver",
+    "Comments": "Note: Highest AGI in the game (even higher than Hunter).\r\nFollow-up note: Why? He is a mage. Is that a good idea? (It seems like Fencer > Hunter > Weaver might make more sense?)",
+    "Flavor": null,
+    "Description": "A pure support mage with spells that specialize in manipulating turn order.",
+    "SortOrder": 22,
+    "LocationBiomeID": 55,
+    "TexturePath": "Icon/Command",
+    "TextureIndex": 23,
+    "AbilitiesName": "Time Magic",
+    "Color": {
+      "R": 0.7294118,
+      "G": 0.333333343,
+      "B": 0.827451
+    },
+    "CrystalName": "Orchid",
+    "WeaponHoldTypeM": 0,
+    "WeaponHoldTypeF": 0,
+    "PreferredHandAType": 7,
+    "PreferredHeadType": 14,
+    "PreferredBodyType": 17,
+    "HPRating": 30,
+    "MPRating": 60,
+    "StrRating": 20,
+    "VitRating": 20,
+    "DexRating": 70,
+    "AgiRating": 80,
+    "MndRating": 50,
+    "SpiRating": 50,
+    "SpdRating": 60,
+    "LckRating": 40,
+    "EquipmentTypes": [
+      2,
+      7,
+      14,
+      17,
+      18
+    ],
+    "AbilityIDs": [
+      152,
+      154,
+      153,
+      155,
+      156,
+      157,
+      449,
+      450,
+      158,
+      159
+    ],
+    "PassiveIDs": [
+      75,
+      3,
+      47,
+      46,
+      48
+    ],
+    "LearnTree": [
+      [
+        {
+          "NodeType": 2,
+          "DataID": 152,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 153,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 2,
+          "DataID": 449,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 158,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 46,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 156,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 47,
+          "PrereqLeft": true,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 48,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 2,
+          "DataID": 157,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 3,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": true
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 154,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 155,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 450,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 159,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 17,
+    "Name": "Chemist",
+    "Comments": "Is a primary healer yet cannot innately equip staves.\r\nShould have low Agi to prevent Hunter sub from being too good (w/ cooldown-free Snipe).\r\nShould have low Agi to prevent Ninja sub from being too good (w/ cooldown-free Utsusemi).\r\nShould have low Vit/HP to prevent tanking subs from being too good (w/ cooldown-free tank abilities).",
+    "Flavor": null,
+    "Description": "A healer that also specializes in supporting attackers and mages. Has no damaging abilities.",
+    "SortOrder": 11,
+    "LocationBiomeID": 39,
+    "TexturePath": "Icon/Command",
+    "TextureIndex": 24,
+    "AbilitiesName": "Item",
+    "Color": {
+      "R": 0.78039217,
+      "G": 0.08235294,
+      "B": 0.521568656
+    },
+    "CrystalName": "Violet Red",
+    "WeaponHoldTypeM": 0,
+    "WeaponHoldTypeF": 0,
+    "PreferredHandAType": 10,
+    "PreferredHeadType": 14,
+    "PreferredBodyType": 17,
+    "HPRating": 20,
+    "MPRating": 80,
+    "StrRating": 30,
+    "VitRating": 40,
+    "DexRating": 20,
+    "AgiRating": 10,
+    "MndRating": 50,
+    "SpiRating": 80,
+    "SpdRating": 80,
+    "LckRating": 70,
+    "EquipmentTypes": [
+      2,
+      3,
+      9,
+      10,
+      14,
+      17,
+      18
+    ],
+    "AbilityIDs": [
+      469,
+      236,
+      471,
+      472,
+      473,
+      474,
+      238,
+      476,
+      235,
+      239,
+      240,
+      243,
+      242,
+      141,
+      244,
+      373
+    ],
+    "PassiveIDs": [
+      66,
+      14,
+      86
+    ],
+    "LearnTree": [
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 238,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 476,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 243,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 242,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 469,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 236,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 471,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 373,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 235,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 472,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 473,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 474,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 239,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 240,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 14,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 86,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 141,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 244,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 18,
+    "Name": "Ninja",
+    "Comments": "Agi is their most valuable stat for tanking, but another class has the highest Agi growth. This is on purpose. It might enable some neat sub-jobbing combos.\r\nThey have low Str on purpose so that their provoke is weak.",
+    "Flavor": null,
+    "Description": "An attacker that also specializes in evasive tanking.",
+    "SortOrder": 13,
+    "LocationBiomeID": 20,
+    "TexturePath": "Icon/Command",
+    "TextureIndex": 25,
+    "AbilitiesName": "Ninjutsu",
+    "Color": {
+      "R": 0.0,
+      "G": 0.0,
+      "B": 0.0
+    },
+    "CrystalName": "Shadow",
+    "WeaponHoldTypeM": 0,
+    "WeaponHoldTypeF": 0,
+    "PreferredHandAType": 2,
+    "PreferredHeadType": 13,
+    "PreferredBodyType": 16,
+    "HPRating": 50,
+    "MPRating": 30,
+    "StrRating": 60,
+    "VitRating": 20,
+    "DexRating": 50,
+    "AgiRating": 70,
+    "MndRating": 60,
+    "SpiRating": 20,
+    "SpdRating": 70,
+    "LckRating": 60,
+    "EquipmentTypes": [
+      1,
+      2,
+      13,
+      16,
+      18
+    ],
+    "AbilityIDs": [
+      165,
+      470,
+      412,
+      166,
+      167,
+      169,
+      170,
+      168,
+      171,
+      475
+    ],
+    "PassiveIDs": [
+      50,
+      51,
+      19,
+      98
+    ],
+    "LearnTree": [
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 51,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 2,
+          "DataID": 166,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 470,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 165,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 169,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 2,
+          "DataID": 168,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 412,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 170,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 171,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 19,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 167,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 475,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 19,
+    "Name": "Assassin",
+    "Comments": "Question: Should they be able to equip daggers innately? (Maybe just axes/bows is OK?)",
+    "Flavor": null,
+    "Description": "An attacker that can either support or deal very high damage.",
+    "SortOrder": 18,
+    "LocationBiomeID": 43,
+    "TexturePath": "Icon/Command",
+    "TextureIndex": 26,
+    "AbilitiesName": "Execute",
+    "Color": {
+      "R": 0.5019608,
+      "G": 0.5019608,
+      "B": 0.5019608
+    },
+    "CrystalName": "Silver",
+    "WeaponHoldTypeM": 0,
+    "WeaponHoldTypeF": 0,
+    "PreferredHandAType": 2,
+    "PreferredHeadType": 13,
+    "PreferredBodyType": 16,
+    "HPRating": 20,
+    "MPRating": 30,
+    "StrRating": 90,
+    "VitRating": 20,
+    "DexRating": 90,
+    "AgiRating": 70,
+    "MndRating": 30,
+    "SpiRating": 10,
+    "SpdRating": 70,
+    "LckRating": 60,
+    "EquipmentTypes": [
+      1,
+      2,
+      7,
+      13,
+      16,
+      18
+    ],
+    "AbilityIDs": [
+      331,
+      215,
+      218,
+      333,
+      335,
+      216,
+      219,
+      217,
+      332,
+      222
+    ],
+    "PassiveIDs": [
+      59,
+      61,
+      62
+    ],
+    "LearnTree": [
+      [
+        {
+          "NodeType": 2,
+          "DataID": 331,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 215,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 218,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 61,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 2,
+          "DataID": 222,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 333,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 335,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 216,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 219,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 217,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 332,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": true,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 62,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 20,
+    "Name": "Samurai",
+    "Comments": "Note: Samurai is not meant to be the strongest damage dealer; they are meant to be the tankiest damage dealer.\r\nImportant: Needs to have low MP so that Fairy's instant MP->AP fill isn't too powerful when used on Samurai.",
+    "Flavor": null,
+    "Description": "A pure attacker that uses lots of AP to deal lots of damage in a single turn.",
+    "SortOrder": 17,
+    "LocationBiomeID": 38,
+    "TexturePath": "Icon/Command",
+    "TextureIndex": 27,
+    "AbilitiesName": "Jikiden",
+    "Color": {
+      "R": 0.627451,
+      "G": 0.321568638,
+      "B": 0.1764706
+    },
+    "CrystalName": "Sienna",
+    "WeaponHoldTypeM": 0,
+    "WeaponHoldTypeF": 0,
+    "PreferredHandAType": 4,
+    "PreferredHeadType": 12,
+    "PreferredBodyType": 15,
+    "HPRating": 90,
+    "MPRating": 20,
+    "StrRating": 80,
+    "VitRating": 50,
+    "DexRating": 50,
+    "AgiRating": 60,
+    "MndRating": 30,
+    "SpiRating": 30,
+    "SpdRating": 40,
+    "LckRating": 40,
+    "EquipmentTypes": [
+      0,
+      4,
+      12,
+      15,
+      18
+    ],
+    "AbilityIDs": [
+      189,
+      190,
+      191,
+      193,
+      192,
+      194,
+      195,
+      196
+    ],
+    "PassiveIDs": [
+      18,
+      43,
+      60,
+      57,
+      40
+    ],
+    "LearnTree": [
+      [
+        {
+          "NodeType": 2,
+          "DataID": 189,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 191,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 190,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 194,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 192,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 57,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 40,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 60,
+          "PrereqLeft": true,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 193,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 195,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 196,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 21,
+    "Name": "Summoner",
+    "Comments": "Note: The only mage class that can equip all 3 mage weapon types.\r\nSummon spells are the least MP-efficient attacks in the game, but they are very strong.\r\nAll spells can only be used once per fight.\r\nIdea: A summon (Death) which is 100% instant kill vs one target only.",
+    "Flavor": null,
+    "Description": "A very fragile mage with extremely powerful one-time-use spells.",
+    "SortOrder": 20,
+    "LocationBiomeID": 36,
+    "TexturePath": "Icon/Command",
+    "TextureIndex": 28,
+    "AbilitiesName": "Summon",
+    "Color": {
+      "R": 1.0,
+      "G": 0.921568632,
+      "B": 0.8039216
+    },
+    "CrystalName": "Almond",
+    "WeaponHoldTypeM": 0,
+    "WeaponHoldTypeF": 0,
+    "PreferredHandAType": 8,
+    "PreferredHeadType": 14,
+    "PreferredBodyType": 17,
+    "HPRating": 10,
+    "MPRating": 100,
+    "StrRating": 10,
+    "VitRating": 20,
+    "DexRating": 40,
+    "AgiRating": 40,
+    "MndRating": 80,
+    "SpiRating": 70,
+    "SpdRating": 40,
+    "LckRating": 60,
+    "EquipmentTypes": [
+      8,
+      9,
+      10,
+      14,
+      17,
+      18
+    ],
+    "AbilityIDs": [
+      223,
+      224,
+      226,
+      227,
+      225,
+      228,
+      230,
+      234,
+      231,
+      232
+    ],
+    "PassiveIDs": [
+      63,
+      64
+    ],
+    "LearnTree": [
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 230,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 223,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 3,
+          "DataID": 63,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 224,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 225,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 231,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 3,
+          "DataID": 64,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 226,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 228,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 232,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 234,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 227,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 22,
+    "Name": "Mimic",
+    "Comments": "Can change subjobs on the fly. Has the most all-around/balanced stat growth of every job.",
+    "Flavor": null,
+    "Description": "An unusual Class with no clear role that can do almost anything when circumstances are ideal.",
+    "SortOrder": 23,
+    "LocationBiomeID": 121,
+    "TexturePath": "Icon/Command",
+    "TextureIndex": 29,
+    "AbilitiesName": "Copycat",
+    "Color": {
+      "R": 1.0,
+      "G": 1.0,
+      "B": 1.0
+    },
+    "CrystalName": "White",
+    "WeaponHoldTypeM": 0,
+    "WeaponHoldTypeF": 0,
+    "PreferredHandAType": 0,
+    "PreferredHeadType": 12,
+    "PreferredBodyType": 15,
+    "HPRating": 50,
+    "MPRating": 50,
+    "StrRating": 50,
+    "VitRating": 50,
+    "DexRating": 50,
+    "AgiRating": 50,
+    "MndRating": 50,
+    "SpiRating": 50,
+    "SpdRating": 50,
+    "LckRating": 50,
+    "EquipmentTypes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "AbilityIDs": [
+      21,
+      22,
+      178,
+      23,
+      20
+    ],
+    "PassiveIDs": [
+      10,
+      68
+    ],
+    "LearnTree": [
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 20,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 22,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 23,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 21,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 178,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 68,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 23,
+    "Name": "Beastmaster",
+    "Comments": "",
+    "Flavor": null,
+    "Description": "An attacker with unique abilities and the potential to deal lots of damage.",
+    "SortOrder": 21,
+    "LocationBiomeID": 57,
+    "TexturePath": "Icon/Command",
+    "TextureIndex": 30,
+    "AbilitiesName": "Wild Arts",
+    "Color": {
+      "R": 1.0,
+      "G": 0.647058845,
+      "B": 0.0
+    },
+    "CrystalName": "Orange",
+    "WeaponHoldTypeM": 0,
+    "WeaponHoldTypeF": 0,
+    "PreferredHandAType": 1,
+    "PreferredHeadType": 12,
+    "PreferredBodyType": 15,
+    "HPRating": 70,
+    "MPRating": 40,
+    "StrRating": 60,
+    "VitRating": 60,
+    "DexRating": 50,
+    "AgiRating": 50,
+    "MndRating": 30,
+    "SpiRating": 40,
+    "SpdRating": 40,
+    "LckRating": 60,
+    "EquipmentTypes": [
+      1,
+      2,
+      11,
+      12,
+      13,
+      15,
+      16,
+      18
+    ],
+    "AbilityIDs": [
+      342,
+      431,
+      221,
+      220,
+      214,
+      345,
+      300,
+      211,
+      343,
+      318,
+      209
+    ],
+    "PassiveIDs": [
+      85,
+      84,
+      21,
+      67
+    ],
+    "LearnTree": [
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 3,
+          "DataID": 67,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 2,
+          "DataID": 300,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 3,
+          "DataID": 21,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 221,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 318,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 345,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 2,
+          "DataID": 342,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 343,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 214,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": true
+        },
+        {
+          "NodeType": 2,
+          "DataID": 211,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ],
+      [
+        {
+          "NodeType": 0,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 220,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 431,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 1,
+          "DataID": 0,
+          "PrereqLeft": true,
+          "PrereqMiddle": false,
+          "PrereqRight": false
+        },
+        {
+          "NodeType": 2,
+          "DataID": 209,
+          "PrereqLeft": false,
+          "PrereqMiddle": true,
+          "PrereqRight": false
+        }
+      ]
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "ID": 0,
+    "Name": "Male",
+    "BoostHP": true,
+    "BoostMP": false,
+    "BoostStr": false,
+    "BoostVit": false,
+    "BoostDex": false,
+    "BoostAgi": false,
+    "BoostMnd": false,
+    "BoostSpi": true,
+    "BoostSpd": false,
+    "BoostLck": true
+  },
+  {
+    "ID": 1,
+    "Name": "Female",
+    "BoostHP": false,
+    "BoostMP": true,
+    "BoostStr": false,
+    "BoostVit": false,
+    "BoostDex": false,
+    "BoostAgi": true,
+    "BoostMnd": false,
+    "BoostSpi": false,
+    "BoostSpd": true,
+    "BoostLck": false
+  }
+]
