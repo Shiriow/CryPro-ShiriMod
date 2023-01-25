@@ -1,6 +1,6 @@
 ### Changelog
 
-https://docs.google.com/spreadsheets/d/1IV6OPEJH2ODkIDR1XfeDhAPtsPmeyPsmf61W0bpizV8/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1IV6OPEJH2ODkIDR1XfeDhAPtsPmeyPsmf61W0bpizV8
 
 ### Installation
 Drop all the jsons on "../Crystal Project/Content/Database"
