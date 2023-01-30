@@ -9926,5 +9926,341 @@
         "Value3": 0
       }
     ]
+  },
+  {
+    "ID": 173,
+    "Name": "Third Eye",
+    "Comments": null,
+    "Flavor": null,
+    "Description": null,
+    "SortOrder": 35,
+    "TexturePath": "Icon/StatusB",
+    "TextureIndex": 25,
+    "HideDurationFromDescription": false,
+    "HideStatModsFromDescription": false,
+    "AnimationID": null,
+    "HasBattlerColor": false,
+    "HasOutlineColor": false,
+    "BattlerColor": {
+      "R": 0.0,
+      "G": 0.0,
+      "B": 0.0
+    },
+    "BattlerColorOpacity": 0.0,
+    "OutlineColor": {
+      "R": 0.0,
+      "G": 0.0,
+      "B": 0.0
+    },
+    "OutlineColorOpacity": 0.0,
+    "ForceMotion": null,
+    "Category": 1,
+    "DecrementOnFixedInterval": false,
+    "DecrementOnEachUserTurn": false,
+    "DecrementOnDmgTaken": false,
+    "DecrementOnPDmgTaken": true,
+    "DecrementOnPDmgEvaded": false,
+    "DecrementOnPDmgGiven": false,
+    "DecrementOnMDmgTaken": true,
+    "DecrementOnMDmgEvaded": false,
+    "DecrementOnMDmgGiven": false,
+    "DecrementOnHealTaken": false,
+    "DecrementOnHealGiven": false,
+    "DecrementOnCritGiven": false,
+    "DecrementOnEffect": false,
+    "RemoveOnDmgTaken": false,
+    "ReApplyResistance": false,
+    "PersistsThroughDeath": false,
+    "IsHidden": false,
+    "StatMods": [
+      {
+        "Tag": 201,
+        "Value1": 50,
+        "Value2": 0,
+        "Value3": 0
+      },
+      {
+        "Tag": 203,
+        "Value1": 50,
+        "Value2": 0,
+        "Value3": 0
+      }
+    ]
+  },
+  {
+    "ID": 174,
+    "Name": "Seigen",
+    "Comments": null,
+    "Flavor": null,
+    "Description": null,
+    "SortOrder": 25,
+    "TexturePath": "Icon/StatusB",
+    "TextureIndex": 10,
+    "HideDurationFromDescription": false,
+    "HideStatModsFromDescription": false,
+    "AnimationID": null,
+    "HasBattlerColor": false,
+    "HasOutlineColor": false,
+    "BattlerColor": {
+      "R": 0.0,
+      "G": 0.0,
+      "B": 0.0
+    },
+    "BattlerColorOpacity": 0.0,
+    "OutlineColor": {
+      "R": 0.0,
+      "G": 0.0,
+      "B": 0.0
+    },
+    "OutlineColorOpacity": 0.0,
+    "ForceMotion": null,
+    "Category": 3,
+    "DecrementOnFixedInterval": false,
+    "DecrementOnEachUserTurn": false,
+    "DecrementOnDmgTaken": false,
+    "DecrementOnPDmgTaken": false,
+    "DecrementOnPDmgEvaded": false,
+    "DecrementOnPDmgGiven": false,
+    "DecrementOnMDmgTaken": false,
+    "DecrementOnMDmgEvaded": false,
+    "DecrementOnMDmgGiven": false,
+    "DecrementOnHealTaken": false,
+    "DecrementOnHealGiven": false,
+    "DecrementOnCritGiven": false,
+    "DecrementOnEffect": false,
+    "RemoveOnDmgTaken": false,
+    "ReApplyResistance": false,
+    "PersistsThroughDeath": false,
+    "IsHidden": false,
+    "StatMods": [
+      {
+        "Tag": 403,
+        "Value1": 0,
+        "Value2": 69,
+        "Value3": 0
+      }
+    ]
+  },
+  {
+    "ID": 175,
+    "Name": "Zanshin",
+    "Comments": "",
+    "Flavor": null,
+    "Description": null,
+    "SortOrder": 58,
+    "TexturePath": "Icon/StatusA",
+    "TextureIndex": 21,
+    "HideDurationFromDescription": false,
+    "HideStatModsFromDescription": false,
+    "AnimationID": null,
+    "HasBattlerColor": false,
+    "HasOutlineColor": false,
+    "BattlerColor": {
+      "R": 0.0,
+      "G": 0.0,
+      "B": 0.0
+    },
+    "BattlerColorOpacity": 0.0,
+    "OutlineColor": {
+      "R": 0.0,
+      "G": 0.0,
+      "B": 0.0
+    },
+    "OutlineColorOpacity": 0.0,
+    "ForceMotion": null,
+    "Category": 3,
+    "DecrementOnFixedInterval": false,
+    "DecrementOnEachUserTurn": false,
+    "DecrementOnDmgTaken": false,
+    "DecrementOnPDmgTaken": false,
+    "DecrementOnPDmgEvaded": false,
+    "DecrementOnPDmgGiven": false,
+    "DecrementOnMDmgTaken": false,
+    "DecrementOnMDmgEvaded": false,
+    "DecrementOnMDmgGiven": false,
+    "DecrementOnHealTaken": false,
+    "DecrementOnHealGiven": false,
+    "DecrementOnCritGiven": false,
+    "DecrementOnEffect": false,
+    "RemoveOnDmgTaken": false,
+    "ReApplyResistance": false,
+    "PersistsThroughDeath": false,
+    "IsHidden": false,
+    "StatMods": [
+      {
+        "Tag": 403,
+        "Value1": 5,
+        "Value2": 0,
+        "Value3": 0
+      },
+      {
+        "Tag": 542,
+        "Value1": -50,
+        "Value2": 0,
+        "Value3": 0
+      }
+    ]
+  },
+  {
+    "ID": 176,
+    "Name": "Hamanoha",
+    "Comments": "",
+    "Flavor": null,
+    "Description": null,
+    "SortOrder": 120,
+    "TexturePath": "Icon/StatusA",
+    "TextureIndex": 21,
+    "HideDurationFromDescription": false,
+    "HideStatModsFromDescription": false,
+    "AnimationID": null,
+    "HasBattlerColor": false,
+    "HasOutlineColor": true,
+    "BattlerColor": {
+      "R": 0.0,
+      "G": 0.0,
+      "B": 0.0
+    },
+    "BattlerColorOpacity": 0.0,
+    "OutlineColor": {
+      "R": 0.854901969,
+      "G": 0.647058845,
+      "B": 0.1254902
+    },
+    "OutlineColorOpacity": 0.5,
+    "ForceMotion": null,
+    "Category": 2,
+    "DecrementOnFixedInterval": false,
+    "DecrementOnEachUserTurn": true,
+    "DecrementOnDmgTaken": false,
+    "DecrementOnPDmgTaken": false,
+    "DecrementOnPDmgEvaded": false,
+    "DecrementOnPDmgGiven": false,
+    "DecrementOnMDmgTaken": false,
+    "DecrementOnMDmgEvaded": false,
+    "DecrementOnMDmgGiven": false,
+    "DecrementOnHealTaken": false,
+    "DecrementOnHealGiven": false,
+    "DecrementOnCritGiven": false,
+    "DecrementOnEffect": false,
+    "RemoveOnDmgTaken": false,
+    "ReApplyResistance": false,
+    "PersistsThroughDeath": false,
+    "IsHidden": false,
+    "StatMods": [
+      {
+        "Tag": 542,
+        "Value1": -100,
+        "Value2": 0,
+        "Value3": 0
+      }
+    ]
+  },
+  {
+    "ID": 177,
+    "Name": "Clear Mind",
+    "Comments": "",
+    "Flavor": null,
+    "Description": null,
+    "SortOrder": 120,
+    "TexturePath": "Icon/StatusA",
+    "TextureIndex": 21,
+    "HideDurationFromDescription": false,
+    "HideStatModsFromDescription": false,
+    "AnimationID": null,
+    "HasBattlerColor": false,
+    "HasOutlineColor": true,
+    "BattlerColor": {
+      "R": 0.0,
+      "G": 0.0,
+      "B": 0.0
+    },
+    "BattlerColorOpacity": 0.0,
+    "OutlineColor": {
+      "R": 0.854901969,
+      "G": 0.647058845,
+      "B": 0.1254902
+    },
+    "OutlineColorOpacity": 0.5,
+    "ForceMotion": null,
+    "Category": 1,
+    "DecrementOnFixedInterval": false,
+    "DecrementOnEachUserTurn": true,
+    "DecrementOnDmgTaken": false,
+    "DecrementOnPDmgTaken": false,
+    "DecrementOnPDmgEvaded": false,
+    "DecrementOnPDmgGiven": false,
+    "DecrementOnMDmgTaken": false,
+    "DecrementOnMDmgEvaded": false,
+    "DecrementOnMDmgGiven": false,
+    "DecrementOnHealTaken": false,
+    "DecrementOnHealGiven": false,
+    "DecrementOnCritGiven": false,
+    "DecrementOnEffect": false,
+    "RemoveOnDmgTaken": false,
+    "ReApplyResistance": false,
+    "PersistsThroughDeath": false,
+    "IsHidden": false,
+    "StatMods": [
+      {
+        "Tag": 2,
+        "Value1": 30,
+        "Value2": 0,
+        "Value3": 0
+      }
+    ]
+  },
+  {
+    "ID": 178,
+    "Name": "Meditate",
+    "Comments": "",
+    "Flavor": null,
+    "Description": null,
+    "SortOrder": 120,
+    "TexturePath": "Icon/StatusA",
+    "TextureIndex": 21,
+    "HideDurationFromDescription": false,
+    "HideStatModsFromDescription": false,
+    "AnimationID": null,
+    "HasBattlerColor": false,
+    "HasOutlineColor": true,
+    "BattlerColor": {
+      "R": 0.0,
+      "G": 0.0,
+      "B": 0.0
+    },
+    "BattlerColorOpacity": 0.0,
+    "OutlineColor": {
+      "R": 0.854901969,
+      "G": 0.647058845,
+      "B": 0.1254902
+    },
+    "OutlineColorOpacity": 0.5,
+    "ForceMotion": null,
+    "Category": 1,
+    "DecrementOnFixedInterval": false,
+    "DecrementOnEachUserTurn": true,
+    "DecrementOnDmgTaken": false,
+    "DecrementOnPDmgTaken": false,
+    "DecrementOnPDmgEvaded": false,
+    "DecrementOnPDmgGiven": false,
+    "DecrementOnMDmgTaken": false,
+    "DecrementOnMDmgEvaded": false,
+    "DecrementOnMDmgGiven": false,
+    "DecrementOnHealTaken": false,
+    "DecrementOnHealGiven": false,
+    "DecrementOnCritGiven": false,
+    "DecrementOnEffect": false,
+    "RemoveOnDmgTaken": false,
+    "ReApplyResistance": false,
+    "PersistsThroughDeath": false,
+    "IsHidden": true,
+    "StatMods": [
+      {
+        "Tag": 251,
+        "Value1": 30,
+        "Value2": 0,
+        "Value3": 0
+      }
+    ]
   }
 ]

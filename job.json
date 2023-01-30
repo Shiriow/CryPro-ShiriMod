@@ -4796,16 +4796,17 @@
     ],
     "AbilityIDs": [
       189,
-      190,
-      191,
-      193,
       192,
-      194,
-      195,
-      196
+      196,
+      544,
+      550,
+      545,
+      546,
+      547,
+      549,
+      548
     ],
     "PassiveIDs": [
-      18,
       43,
       60,
       57,
@@ -4829,7 +4830,7 @@
         },
         {
           "NodeType": 2,
-          "DataID": 191,
+          "DataID": 544,
           "PrereqLeft": false,
           "PrereqMiddle": true,
           "PrereqRight": false
@@ -4859,14 +4860,14 @@
       [
         {
           "NodeType": 2,
-          "DataID": 190,
+          "DataID": 547,
           "PrereqLeft": false,
           "PrereqMiddle": false,
           "PrereqRight": false
         },
         {
           "NodeType": 2,
-          "DataID": 194,
+          "DataID": 546,
           "PrereqLeft": true,
           "PrereqMiddle": false,
           "PrereqRight": false
@@ -4879,8 +4880,8 @@
           "PrereqRight": false
         },
         {
-          "NodeType": 2,
-          "DataID": 192,
+          "NodeType": 3,
+          "DataID": 60,
           "PrereqLeft": true,
           "PrereqMiddle": false,
           "PrereqRight": false
@@ -4923,15 +4924,15 @@
           "PrereqRight": false
         },
         {
-          "NodeType": 1,
-          "DataID": 0,
+          "NodeType": 2,
+          "DataID": 192,
           "PrereqLeft": false,
           "PrereqMiddle": true,
           "PrereqRight": false
         },
         {
-          "NodeType": 3,
-          "DataID": 60,
+          "NodeType": 2,
+          "DataID": 549,
           "PrereqLeft": true,
           "PrereqMiddle": true,
           "PrereqRight": false
@@ -4960,22 +4961,22 @@
           "PrereqRight": false
         },
         {
-          "NodeType": 1,
-          "DataID": 0,
+          "NodeType": 2,
+          "DataID": 548,
           "PrereqLeft": true,
           "PrereqMiddle": false,
           "PrereqRight": false
         },
         {
           "NodeType": 2,
-          "DataID": 193,
+          "DataID": 550,
           "PrereqLeft": false,
           "PrereqMiddle": true,
           "PrereqRight": false
         },
         {
           "NodeType": 2,
-          "DataID": 195,
+          "DataID": 545,
           "PrereqLeft": false,
           "PrereqMiddle": true,
           "PrereqRight": false
